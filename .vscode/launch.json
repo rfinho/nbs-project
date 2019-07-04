@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch imagesApp",
+            "request": "launch",
+            "mainClass": "com.nbs.App",
+            "projectName": "imagesApp"
+        }
+    ]
+}

@@ -41,7 +41,7 @@ public class ImageController {
 
     @PostMapping(value = "/")
     public Image createImage(@Validated @RequestBody Image image) {
-        System.out.println("adding new pet!");
+        System.out.println("adding new image!");
         image.set_id(ObjectId.get());
         imageRepository.save(image);
         return image;
@@ -49,12 +49,14 @@ public class ImageController {
 
     @PutMapping(value = "/{id}")
     public void modifyImageById(@PathVariable("id") ObjectId id, @Valid @RequestBody Image image) {
+        System.out.println("updating existing image!");
         image.set_id(id);
         imageRepository.save(image);
     }
 
     @DeleteMapping(value = "/{id}")
     public void deleteImage(@PathVariable ObjectId id) {
+        System.out.println("deleting existing image!");
         imageRepository.delete(imageRepository.findBy_id(id));
     }
 }
