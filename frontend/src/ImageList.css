@@ -1,0 +1,16 @@
+#cardContainers{
+    /*border: 1px solid rgb(160, 160, 160);*/
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+#heading{
+    text-align: center;
+    margin: 1em 0 1em 0;
+    color: #563d7c;
+}
+
+#card-size-control{
+    margin: 0 0 50px 0;
+}

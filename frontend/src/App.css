@@ -1,0 +1,48 @@
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
+body{
+    background-color: #c2c2c2;
+}
+.container, .container-fluid 
+{
+    margin: auto;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+#test 
+{
+    width: 100%;
+    /* border: 3px solid red; */
+    margin-top: 10%;
+}
+.row 
+{
+    margin-top: 20px;
+}
+
+.innerContainer
+{
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid #ffe484;
+    padding: 17px;
+    background-color: #563d7c;
+}
+#lower
+{
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#text h1
+{
+    color: #ffe484;
+}
+
+.text-p-color
+{
+color: white;
+text-align: center;
+}
